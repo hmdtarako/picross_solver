@@ -560,7 +560,7 @@ void dispUsageDemo()
 			"            > ./demo puzzle_sample_small.c -s\n"
 			"\n"
 			"       m : calculate Mean of numbers of steps to solve\n"
-			"    time : trial time (for -m)\n"
+			"    time : trial times (for -m)\n"
 			"            > ./demo puzzle_sample_small.c -m 10\n"
 		);
 }

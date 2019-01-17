@@ -4,14 +4,14 @@
 #include "master.h"
 
 /*
-	$ ./demo [filename] -[a,s,m] [time]
+	$ ./demo [filename] [-as] [-m time]
 	filename : select a formatted file
 	       a : animated Automatically
 	            > ./demo puzzle_sample_small.c -a
 	       s : displayed Step by step
 	            > ./demo puzzle_sample_small.c -s
 	       m : calculate Mean of numbers of steps to solve
-	    time : trial time (for -m)
+	    time : trial times (for -m)
 	            > ./demo puzzle_sample_small.c -m 10
 */
 
